@@ -1,0 +1,11 @@
+.styled-select {
+    -webkit-appearance: none;
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    overflow: hidden;
+    background: url('./dropdown.png') no-repeat right #FFFFFF;
+    border: 1px solid #eaeaea;
+    border-radius: 0;
+}
