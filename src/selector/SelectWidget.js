@@ -1,5 +1,22 @@
 import React, {Component, PropTypes} from "react";
+import selectorSkin from './dropdown.png';
 
+
+// the style info could be imported from an external file
+
+const SELECTOR_STYLES = {
+  'WebkitAppearance': 'none',
+  'padding': '5px 10px 5px 10px',
+  'fontSize': '14px',
+  'width': '200px',
+  'height': '40px',
+  'overflow': 'hidden',
+  'background': `url(${selectorSkin}) no-repeat right #FFFFFF`,
+  'border': '1px solid #eaeaea',
+  'borderRadius': '0'
+};
+
+console.log(selectorSkin);
 
 export default class SelectWidget extends Component {
   render() {
@@ -8,6 +25,7 @@ export default class SelectWidget extends Component {
     return (
         <select
             id={id}
+            style={SELECTOR_STYLES}
             className={containerClass}
             onChange={onChange}
             value={value}

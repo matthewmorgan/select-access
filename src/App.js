@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import './selector/selector.css';
 
 import SelectWidget from './selector/SelectWidget';
 
