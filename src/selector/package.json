@@ -1,0 +1,11 @@
+{
+  "name": "@matthewmorgan/selector",
+  "version": "1.0.0",
+  "description": "accessible select widget for react",
+  "main": "SelectWidget.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Morgan",
+  "license": "MIT"
+}

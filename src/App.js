@@ -42,6 +42,7 @@ class App extends Component {
               onChange={this.handleChange}
               value={this.state.value}
               options={this.state.options}
+              style={{"borderRadius":'5px'}}
           />
         </div>
     );

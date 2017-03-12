@@ -16,6 +16,19 @@ exports[`test renders correctly 1`] = `
     id="my-select-widget"
     onChange={[Function]}
     role="button"
+    style={
+      Object {
+        "WebkitAppearance": "none",
+        "background": "url(dropdown.png) no-repeat right #FFFFFF",
+        "border": "1px solid #eaeaea",
+        "borderRadius": "5px",
+        "fontSize": "14px",
+        "height": "40px",
+        "overflow": "hidden",
+        "padding": "5px 10px 5px 10px",
+        "width": "200px",
+      }
+    }
     value="mutt">
     <option
       value="mutt">

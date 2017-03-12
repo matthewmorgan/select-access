@@ -20,12 +20,12 @@ console.log(selectorSkin);
 
 export default class SelectWidget extends Component {
   render() {
-    const {id, containerClass, ariaLabel, value, onChange, options} = this.props;
+    const {id, containerClass, ariaLabel, value, onChange, options, style} = this.props;
 
     return (
         <select
             id={id}
-            style={SELECTOR_STYLES}
+            style={Object.assign({}, SELECTOR_STYLES, style)}
             className={containerClass}
             onChange={onChange}
             value={value}
@@ -48,5 +48,6 @@ SelectWidget.propTypes = {
   containerClass: PropTypes.string.isRequired,
   options:        PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
   value:          PropTypes.string.isRequired,
+  style:          PropTypes.object,
   onChange:       PropTypes.func.isRequired
 };
