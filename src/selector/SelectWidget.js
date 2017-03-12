@@ -2,7 +2,8 @@ import React, {Component, PropTypes} from "react";
 import selectorSkin from './dropdown.png';
 
 
-// the style info could be imported from an external file
+// the style info can be imported from an external file, or passed in via props
+// fallback to the values below if unspecified
 
 const SELECTOR_STYLES = {
   'WebkitAppearance': 'none',

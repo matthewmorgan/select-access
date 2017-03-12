@@ -42,7 +42,7 @@ class App extends Component {
               onChange={this.handleChange}
               value={this.state.value}
               options={this.state.options}
-              style={{"borderRadius":'5px'}}
+              style={{"borderRadius":'5px'}} //example of how overriding style settings from parent is possible
           />
         </div>
     );
